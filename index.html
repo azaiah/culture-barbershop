@@ -3,16 +3,33 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MurdaWon | Mobile Barber in Richmond, VA | Fades, Tapers, Braids</title>
-<meta name="description" content="MurdaWon, LLC: Richmond, VA mobile barber with 20+ years of experience. Bald fades, shadow fades, tapers, shape ups and braids, at your door or in a private in-home studio. Your Crown. My Craft.">
+<title>MurdaWon | Richmond's Mobile Barber | Fades, Tapers, Line Ups</title>
+<meta name="description" content="MurdaWon, LLC: Richmond, VA mobile barber with 20+ years of experience. Bald fades, shadow fades, temp fades, tapers, shape ups and line ups, at your door or in a private studio. Book online. Your Crown. My Craft.">
+<meta name="robots" content="index,follow">
 <meta name="theme-color" content="#070708">
-<link rel="canonical" href="https://murdawon.com/"><!-- NEEDS CLIENT CONFIRMATION: final domain -->
-<link rel="icon" href="assets/icon.png">
-<link rel="artifact-thumbnail" href="assets/og.jpg">
-<meta property="og:title" content="MurdaWon | Richmond's Mobile Barber">
-<meta property="og:description" content="20+ years behind the clippers. Fresh cuts at your door or in a private studio. Your Crown. My Craft.">
-<meta property="og:image" content="assets/og.jpg">
+<link rel="canonical" href="https://murda-won-website.netlify.app/">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="256x256" href="/assets/icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="artifact-thumbnail" href="assets/og-card.jpg">
+<!-- Link preview card (iMessage, WhatsApp, Facebook, Instagram DMs, LinkedIn, Slack, X). Absolute URLs are required. -->
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="MurdaWon">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://murda-won-website.netlify.app/">
+<meta property="og:title" content="MurdaWon | The Cut Comes to You">
+<meta property="og:description" content="Richmond's mobile barber. 20+ years, 5.0 on theCut. Fades, tapers, line ups and shape ups at your door or in a private studio. Book in under a minute.">
+<meta property="og:image" content="https://murda-won-website.netlify.app/assets/og-card.jpg">
+<meta property="og:image:secure_url" content="https://murda-won-website.netlify.app/assets/og-card.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="MurdaWon chrome logo with barber pole and crown: The cut comes to you. Mobile barber, Richmond VA.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MurdaWon | The Cut Comes to You">
+<meta name="twitter:description" content="Richmond's mobile barber. 20+ years, 5.0 on theCut. Book in under a minute.">
+<meta name="twitter:image" content="https://murda-won-website.netlify.app/assets/og-card.jpg">
+<meta name="twitter:image:alt" content="MurdaWon chrome logo with barber pole and crown.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -24,14 +41,15 @@
   "name":"MurdaWon, LLC",
   "slogan":"Your Crown. My Craft.",
   "description":"Mobile barber in Richmond, VA with over 20 years of professional barbering experience. Mobile service or private in-home studio.",
-  "image":"assets/og.jpg",
-  "logo":"assets/logo.webp",
-  "url":"https://murdawon.com/",
+  "image":"https://murda-won-website.netlify.app/assets/og-card.jpg",
+  "logo":"https://murda-won-website.netlify.app/assets/logo.webp",
+  "url":"https://murda-won-website.netlify.app/",
   "address":{"@type":"PostalAddress","addressLocality":"Richmond","addressRegion":"VA","postalCode":"23225","addressCountry":"US"},
   "areaServed":{"@type":"City","name":"Richmond, Virginia"},
-  "priceRange":"$30-$60",
+  "priceRange":"$30-$50",
   "openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"09:00"}],
   "aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"8","bestRating":"5"},
+  "photo":["https://murda-won-website.netlify.app/assets/work-waves-fade.webp","https://murda-won-website.netlify.app/assets/work-skin-fade-line.webp","https://murda-won-website.netlify.app/assets/work-bald-fade-part.webp"],
   "sameAs":["https://www.instagram.com/murda_won/","https://book.thecut.co/MurdaWonLLC"],
   "hasOfferCatalog":{"@type":"OfferCatalog","name":"Barber services","itemListElement":[
     {"@type":"Offer","price":"45","priceCurrency":"USD","itemOffered":{"@type":"Service","name":"Bald Fade"}},
@@ -39,7 +57,6 @@
     {"@type":"Offer","price":"45","priceCurrency":"USD","itemOffered":{"@type":"Service","name":"Taper Fade"}},
     {"@type":"Offer","price":"35","priceCurrency":"USD","itemOffered":{"@type":"Service","name":"All Even"}},
     {"@type":"Offer","price":"35","priceCurrency":"USD","itemOffered":{"@type":"Service","name":"Gentlemen Cut"}},
-    {"@type":"Offer","price":"60","priceCurrency":"USD","itemOffered":{"@type":"Service","name":"Braids"}},
     {"@type":"Offer","price":"30","priceCurrency":"USD","itemOffered":{"@type":"Service","name":"Shape Up"}},
     {"@type":"Offer","price":"50","priceCurrency":"USD","itemOffered":{"@type":"Service","name":"Dread Removal"}}
   ]}
@@ -51,7 +68,11 @@
   --chrome:#eef0f3; --silver:#b4bac2; --mute:#80868f; --dim:#5a5f67;
   --red:#d3222c; --blue:#2350d6; --gold:#caa24c;
   --chrome-grad:linear-gradient(180deg,#ffffff 0%,#eef0f3 34%,#a9afb7 50%,#e9ecef 64%,#ffffff 100%);
-  --pole:repeating-linear-gradient(135deg,var(--red) 0 14px,#f4f5f7 14px 28px,var(--blue) 28px 42px,#f4f5f7 42px 56px);
+  /* Barber pole: ONE seamless repeating gradient (never tiled with background-size).
+     Stripe width --s; motion period along x or y = 4 * s * sqrt(2). Animate with transforms only. */
+  --s:7px; --pp:39.598px; /* 4 * 7 * 1.41421356 */
+  --pw:#f5f6f8;
+  --pole:repeating-linear-gradient(45deg,var(--red) 0,var(--red) 6.5px,var(--pw) 7.5px,var(--pw) 13.5px,var(--blue) 14.5px,var(--blue) 20.5px,var(--pw) 21.5px,var(--pw) 27.5px,var(--red) 28px);
   --display:"Anton",Impact,"Arial Narrow",sans-serif; --cond:"Barlow Condensed","Arial Narrow",sans-serif; --body:"Barlow",system-ui,sans-serif;
   --r:14px; --max:1240px; --ease:cubic-bezier(.2,.8,.2,1);
 }
@@ -72,7 +93,7 @@ input,select,textarea{font:inherit;color:inherit}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .wrap{width:min(100% - 40px,var(--max));margin-inline:auto}
 .eyebrow{font-family:var(--cond);font-weight:600;letter-spacing:.28em;text-transform:uppercase;font-size:13px;color:var(--silver);display:inline-flex;align-items:center;gap:12px}
-.eyebrow::before{content:"";width:28px;height:6px;border-radius:3px;background:var(--pole);background-size:56px 56px}
+.eyebrow::before{content:"";width:28px;height:6px;border-radius:3px;background:var(--pole)}
 h1,h2,h3{font-family:var(--display);font-weight:400;line-height:.95;letter-spacing:.01em;text-transform:uppercase}
 h2{font-size:clamp(44px,7.4vw,104px)}
 .chrome-text{background:var(--chrome-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
@@ -81,28 +102,46 @@ h2{font-size:clamp(44px,7.4vw,104px)}
 
 /* Buttons */
 .btn{--h:54px;display:inline-flex;align-items:center;justify-content:center;gap:10px;height:var(--h);padding:0 26px;border-radius:999px;font-family:var(--cond);font-weight:700;font-size:17px;letter-spacing:.14em;text-transform:uppercase;transition:transform .3s var(--ease),box-shadow .3s var(--ease),background .3s;white-space:nowrap;position:relative;isolation:isolate}
-.btn-chrome{background:linear-gradient(180deg,#ffffff 0%,#e8ebee 46%,#c3c8ce 54%,#f4f6f8 100%);color:#0a0a0b;box-shadow:0 0 0 1px rgba(255,255,255,.4) inset,0 10px 30px -10px rgba(255,255,255,.35)}
-.btn-chrome::after{content:"";position:absolute;inset:-3px;border-radius:inherit;background:var(--pole);background-size:56px 56px;z-index:-1;opacity:0;transition:opacity .3s;animation:poleMove 1.2s linear infinite}
-.btn-chrome:hover:not(:disabled){transform:translateY(-2px)}
-.btn-chrome:hover:not(:disabled)::after{opacity:1}
+.btn-chrome{background:transparent;color:#0a0a0b;overflow:hidden;box-shadow:0 10px 30px -12px rgba(255,255,255,.35)}
+.btn-chrome::before{content:"";position:absolute;inset:0;border-radius:inherit;z-index:-1;background:linear-gradient(180deg,#ffffff 0%,#e8ebee 46%,#c3c8ce 54%,#f4f6f8 100%);box-shadow:0 0 0 1px rgba(255,255,255,.45) inset;transition:inset .45s var(--ease)}
+.btn-chrome::after{content:"";position:absolute;top:0;bottom:0;left:calc(var(--pp) * -1);right:0;background:var(--pole);z-index:-2;opacity:0;transition:opacity .45s var(--ease);animation:poleSide 1.6s linear infinite;animation-play-state:paused;will-change:transform}
+@media (hover:hover){.btn-chrome:hover:not(:disabled){transform:translateY(-2px)}
+.btn-chrome:hover:not(:disabled)::before{inset:3px}
+.btn-chrome:hover:not(:disabled)::after{opacity:1;animation-play-state:running}}
+.btn-chrome:active:not(:disabled){transform:scale(.98)}
 .btn:disabled{cursor:not-allowed}
 .btn-ghost{border:1px solid var(--line-2);color:var(--chrome)}
 .btn-ghost:hover{border-color:var(--chrome);background:rgba(255,255,255,.04)}
 .btn-sm{--h:42px;padding:0 18px;font-size:15px}
-@keyframes poleMove{to{background-position:56px 0}}
+
 
 /* Preloader */
 #loader{position:fixed;inset:0;z-index:200;background:var(--ink);display:grid;place-items:center;transition:opacity .6s var(--ease),visibility .6s}
 #loader.done{opacity:0;visibility:hidden}
-.loader-pole{width:26px;height:120px;border-radius:13px;background:var(--pole);background-size:56px 56px;animation:poleV .7s linear infinite;box-shadow:0 0 0 4px #1b1c20,0 0 0 6px #6f747b,0 0 40px rgba(255,255,255,.15)}
-@keyframes poleV{to{background-position:0 56px}}
+.loader-pole{width:28px;height:118px;--spd:1.4s}
+.loader-unit{filter:drop-shadow(0 0 30px rgba(255,255,255,.12))}
+/* ---- 3D barber pole component ---- */
+.pole{position:relative;overflow:hidden;isolation:isolate;background:var(--pw);contain:paint}
+.pole>i{position:absolute;left:0;right:0;top:0;bottom:calc(var(--pp) * -1);background:var(--pole);will-change:transform;transform:translate3d(0,0,0)}
+.pole.spin>i{animation:poleUp var(--spd,2.2s) linear infinite}
+.pole::after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;background:
+  linear-gradient(90deg,rgba(0,0,0,.62) 0%,rgba(0,0,0,.22) 14%,rgba(0,0,0,0) 28%,rgba(255,255,255,.55) 36%,rgba(255,255,255,.08) 46%,rgba(0,0,0,0) 60%,rgba(0,0,0,.25) 82%,rgba(0,0,0,.66) 100%)}
+.pole::before{content:"";position:absolute;inset:0;z-index:3;pointer-events:none;background:linear-gradient(180deg,rgba(0,0,0,.35),transparent 12%,transparent 88%,rgba(0,0,0,.35))}
+@keyframes poleUp{to{transform:translate3d(0,calc(var(--pp) * -1),0)}}
+@keyframes poleSide{to{transform:translate3d(var(--pp),0,0)}}
+.pole-unit{display:flex;flex-direction:column;align-items:center}
+.pole-unit .pole{border-radius:3px}
+.cap{display:block;background:linear-gradient(90deg,#4d5259 0%,#c9ced4 18%,#ffffff 36%,#dfe3e7 52%,#8a9098 76%,#3f444a 100%);box-shadow:0 1px 0 rgba(255,255,255,.25) inset}
+.cap.top{width:130%;height:12px;border-radius:12px 12px 3px 3px}
+.cap.top::before{content:"";display:block;width:46%;height:10px;margin:-9px auto 0;border-radius:10px 10px 0 0;background:inherit}
+.cap.bot{width:130%;height:12px;border-radius:3px 3px 10px 10px}
 .loader-txt{margin-top:22px;font-family:var(--cond);letter-spacing:.4em;font-size:12px;color:var(--mute);text-align:center}
 
 /* Scroll pole (progress) */
-#scrollPole{position:fixed;right:18px;top:50%;transform:translateY(-50%);width:10px;height:42vh;border-radius:6px;background:#121316;box-shadow:0 0 0 1px #2a2c31;z-index:40;overflow:hidden}
-#scrollPole i{position:absolute;inset:0;background:var(--pole);background-size:28px 28px;transform-origin:top;transform:scaleY(0)}
-#scrollPole::before,#scrollPole::after{content:"";position:absolute;left:-3px;right:-3px;height:6px;background:var(--chrome-grad);border-radius:3px;z-index:2}
-#scrollPole::before{top:0}#scrollPole::after{bottom:0}
+#scrollPole{position:fixed;right:16px;top:50%;transform:translateY(-50%);width:12px;height:42vh;z-index:40;display:flex;flex-direction:column;align-items:center}
+#scrollPole .track{position:relative;flex:1;width:100%;background:#121316;box-shadow:0 0 0 1px #2a2c31 inset;overflow:hidden}
+#scrollPole .pole{position:absolute;inset:0;clip-path:inset(0 0 100% 0)}
+#scrollPole .cap{width:20px;height:7px}
 @media (max-width:900px){#scrollPole{display:none}}
 
 /* Nav */
@@ -112,13 +151,16 @@ h2{font-size:clamp(44px,7.4vw,104px)}
 .nav-logo img{height:48px;width:auto}
 .nav-links{display:flex;gap:30px;font-family:var(--cond);font-weight:600;letter-spacing:.18em;text-transform:uppercase;font-size:14px;color:var(--silver)}
 .nav-links a{position:relative;padding:6px 0}
-.nav-links a::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:2px;background:var(--pole);background-size:28px 28px;transition:right .35s var(--ease)}
+.nav-links a::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:2px;background:var(--pole);transition:right .35s var(--ease)}
 .nav-links a:hover{color:var(--chrome)}.nav-links a:hover::after{right:0}
 .nav-cta{display:flex;gap:10px;align-items:center}
 .burger{display:none;width:44px;height:44px;border-radius:50%;border:1px solid var(--line-2);place-items:center}
-@media (max-width:960px){.nav-links{display:none}.burger{display:grid}.nav-cta .btn-ghost{display:none}}
-.mnav{position:fixed;inset:0;z-index:70;background:rgba(7,7,8,.97);display:flex;flex-direction:column;justify-content:center;padding:40px 28px;gap:6px;transform:translateY(-100%);transition:transform .5s var(--ease)}
-.mnav.open{transform:none}
+@media (max-width:1240px){.nav-cta .btn-ghost{display:none}}
+@media (max-width:1100px){.nav-links{display:none}.burger{display:grid}}
+@media (max-width:1280px) and (min-width:1101px){.nav-links{gap:22px}}
+.mnav{position:fixed;inset:0;z-index:70;background:rgba(7,7,8,.97);display:flex;flex-direction:column;justify-content:center;padding:84px 28px 40px;gap:6px;overflow-y:auto;transform:translateY(-100%);visibility:hidden;transition:transform .5s var(--ease),visibility 0s .5s}
+.mnav.open{transform:none;visibility:visible;transition:transform .5s var(--ease),visibility 0s}
+@media (max-height:600px){.mnav{justify-content:flex-start}.mnav a{font-size:32px}}
 .mnav a{font-family:var(--display);font-size:44px;text-transform:uppercase;padding:4px 0;border-bottom:1px solid var(--line)}
 .mnav .x{position:absolute;top:18px;right:20px;width:48px;height:48px;border-radius:50%;border:1px solid var(--line-2);display:grid;place-items:center}
 
@@ -149,13 +191,15 @@ h2{font-size:clamp(44px,7.4vw,104px)}
 .scroll-cue{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);z-index:2;display:flex;flex-direction:column;align-items:center;gap:8px;font-family:var(--cond);letter-spacing:.3em;font-size:11px;color:var(--mute)}
 .scroll-cue i{width:2px;height:40px;background:linear-gradient(var(--chrome),transparent);animation:cue 1.8s ease-in-out infinite}
 @keyframes cue{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
-@media (max-width:640px){.hero-stats{grid-template-columns:repeat(3,1fr);gap:12px}.stat span{font-size:10.5px;letter-spacing:.12em}.scroll-cue{display:none}}
+@media (max-width:640px){.hero{padding:92px 0 56px}.hero-stats{grid-template-columns:repeat(3,1fr);gap:12px;margin-top:36px;padding-top:20px}.stat span{font-size:11.5px;letter-spacing:.1em}.scroll-cue{display:none}.hero .lead{margin:16px 0 24px;font-size:16.5px}.hero-grid .hero-logo{width:min(400px,84%)}}
+@media (max-width:640px) and (max-height:700px){.hero-grid .hero-logo{width:min(300px,70%)}.hero h1{font-size:44px}}
+@media (orientation:landscape) and (max-height:520px){.hero{min-height:auto;padding:90px 0 40px}.hero-grid{grid-template-columns:1.2fr .8fr}.hero-grid .hero-logo{order:2;width:100%;margin:0}.hero h1{font-size:46px}.hero-stats{margin-top:24px}.scroll-cue{display:none}}
 
 /* Ticker */
 .ticker{border-block:1px solid var(--line);background:var(--coal);overflow:hidden;white-space:nowrap;padding:18px 0;position:relative}
 .ticker-track{display:inline-flex;gap:44px;animation:tick 38s linear infinite;font-family:var(--display);font-size:clamp(26px,3.4vw,44px);text-transform:uppercase;letter-spacing:.02em}
 .ticker-track span{display:inline-flex;align-items:center;gap:44px}
-.ticker-track span::after{content:"";width:16px;height:16px;border-radius:50%;background:var(--pole);background-size:20px 20px}
+.ticker-track span::after{content:"";width:16px;height:16px;border-radius:50%;background:var(--pole)}
 .ticker-track span:nth-child(even){-webkit-text-stroke:1px var(--silver);color:transparent}
 @keyframes tick{to{transform:translateX(-50%)}}
 
@@ -213,7 +257,7 @@ section{position:relative}
 .chip[aria-pressed="true"],.chip:hover{background:var(--chrome);color:#0a0a0b;border-color:var(--chrome)}
 .svc-list{border-top:1px solid var(--line)}
 .svc{display:grid;grid-template-columns:64px 1fr auto auto;gap:24px;align-items:center;padding:26px 6px;border-bottom:1px solid var(--line);position:relative;transition:background .3s}
-.svc::after{content:"";position:absolute;left:0;bottom:-1px;height:1px;width:100%;background:var(--pole);background-size:28px 28px;transform:scaleX(0);transform-origin:left;transition:transform .6s var(--ease)}
+.svc::after{content:"";position:absolute;left:0;bottom:-1px;height:1px;width:100%;background:var(--pole);transform:scaleX(0);transform-origin:left;transition:transform .6s var(--ease)}
 .svc:hover{background:linear-gradient(90deg,rgba(255,255,255,.03),transparent)}
 .svc:hover::after{transform:scaleX(1)}
 .svc .n{font-family:var(--display);font-size:22px;color:var(--dim)}
@@ -228,17 +272,34 @@ section{position:relative}
 @media (max-width:720px){.svc{grid-template-columns:1fr auto;gap:10px 16px;padding:22px 2px}.svc .n{display:none}.svc .meta{text-align:left;grid-column:1}.svc .add{grid-row:1/3;grid-column:2;align-self:center}}
 
 /* Work */
-.work-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
-.work-tile{position:relative;border-radius:12px;overflow:hidden;background:var(--steel);border:1px solid var(--line);grid-column:span 4;aspect-ratio:4/5}
-.work-tile.wide{grid-column:span 8;aspect-ratio:auto}
-.work-tile img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.15) brightness(.92);transition:filter .6s,transform .8s var(--ease)}
-.work-tile:hover img{filter:grayscale(0) contrast(1.05);transform:scale(1.04)}
-.work-tile .lbl{position:absolute;left:14px;bottom:14px;font-family:var(--cond);letter-spacing:.18em;text-transform:uppercase;font-size:13px;background:rgba(7,7,8,.7);padding:8px 12px;border-radius:8px;border:1px solid var(--line-2)}
-.needs{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:20px;background:repeating-linear-gradient(135deg,#101114 0 18px,#0c0d0f 18px 36px);color:var(--mute);font-family:var(--cond);letter-spacing:.18em;text-transform:uppercase;font-size:13px}
-.needs b{display:block;color:var(--silver);font-size:15px;margin-bottom:6px}
+.work-filter{margin:-34px 0 26px}
+.work-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:clamp(150px,19vw,290px);grid-auto-flow:dense;gap:12px}
+.work-tile{position:relative;border-radius:14px;overflow:hidden;background:var(--steel);border:1px solid var(--line);cursor:zoom-in;padding:0;isolation:isolate}
+.work-tile.big{grid-column:span 2;grid-row:span 2}
+.work-tile.big.r{grid-column:3 / span 2}
+.work-tile img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.12) brightness(.88);transform:scale(1.02);transition:filter .7s var(--ease),transform 1.1s var(--ease)}
+.work-tile::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,transparent 55%,rgba(7,7,8,.85));pointer-events:none}
+.work-tile::before{content:"";position:absolute;inset:0;z-index:2;border-radius:inherit;padding:2px;background:var(--pole);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;opacity:0;transition:opacity .5s var(--ease);pointer-events:none}
+.work-tile .lbl{position:absolute;left:14px;bottom:14px;z-index:3;font-family:var(--cond);font-weight:600;letter-spacing:.18em;text-transform:uppercase;font-size:13px;color:var(--chrome);display:flex;align-items:center;gap:8px}
+.work-tile .lbl::before{content:"";width:18px;height:5px;border-radius:3px;background:var(--pole)}
+.work-tile .zoom{position:absolute;right:12px;top:12px;z-index:3;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:rgba(7,7,8,.6);border:1px solid var(--line-2);opacity:0;transform:scale(.8);transition:.4s var(--ease)}
+.work-tile.lit img{filter:grayscale(0) contrast(1.04) brightness(1)}
+@media (hover:hover){.work-tile:hover img{filter:grayscale(0) contrast(1.04) brightness(1);transform:scale(1.07)}.work-tile:hover::before{opacity:1}.work-tile:hover .zoom{opacity:1;transform:none}}
+.work-tile[hidden]{display:none}
+@media (max-width:900px){.work-grid{grid-template-columns:repeat(2,1fr);grid-auto-rows:clamp(150px,44vw,300px);gap:10px}.work-tile.big.r{grid-column:span 2}.work-tile.mt{grid-row:span 2}.work-filter{margin:-20px 0 20px}.work-tile .lbl{left:10px;right:10px;bottom:10px;font-size:10.5px;letter-spacing:.1em;line-height:1.2}.work-tile .lbl::before{width:12px;flex:none}}
+.lb{position:fixed;inset:0;z-index:120;background:rgba(4,4,5,.94);backdrop-filter:blur(10px);display:grid;place-items:center;opacity:0;visibility:hidden;transition:opacity .35s,visibility .35s}
+.lb.open{opacity:1;visibility:visible}
+.lb figure{width:min(92vw,86vh,820px);position:relative}
+.lb img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:16px;box-shadow:0 30px 80px rgba(0,0,0,.7);transform:scale(.96);transition:transform .5s var(--ease)}
+.lb.open img{transform:none}
+.lb figcaption{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:14px;font-family:var(--cond);letter-spacing:.18em;text-transform:uppercase;font-size:14px;color:var(--silver)}
+.lb .nav-b{position:fixed;top:50%;transform:translateY(-50%);width:52px;height:52px;border-radius:50%;border:1px solid var(--line-2);display:grid;place-items:center;background:rgba(14,14,17,.8)}
+.lb .nav-b:hover{background:var(--chrome);color:#0a0a0b}
+.lb .prev{left:max(12px,2vw)}.lb .next{right:max(12px,2vw)}
+.lb .p-x{position:fixed;top:16px;right:16px}
+@media (max-width:640px){.lb .nav-b{top:auto;bottom:24px;transform:none}.lb .prev{left:calc(50% - 64px)}.lb .next{right:calc(50% - 64px)}}
 .work-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
 @media (max-width:480px){.work-cta .btn,.hero-ctas .btn{width:100%}}
-@media (max-width:900px){.work-tile,.work-tile.wide{grid-column:span 12;aspect-ratio:16/10}}
 
 /* Reviews */
 .reviews{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(30px,6vw,90px);align-items:start}
@@ -266,6 +327,7 @@ section{position:relative}
 .club>*{min-width:0}
 @media (max-width:900px){.club{grid-template-columns:1fr}}
 @media (max-width:480px){.tier{padding:16px}.tier .p{font-size:26px}}
+@media (max-width:380px){.tier{flex-wrap:wrap;gap:6px}.tier .p{font-size:24px}.club{padding:22px 18px}}
 
 /* FAQ */
 .faq{max-width:900px}
@@ -280,7 +342,7 @@ section{position:relative}
 .final{text-align:center;padding:clamp(100px,14vw,190px) 0;overflow:hidden;position:relative}
 .final h2{font-size:clamp(56px,11vw,170px)}
 .final .lead{margin:20px auto 34px}
-.final .pole-bg{position:absolute;left:50%;top:0;bottom:0;width:120px;transform:translateX(-50%);background:var(--pole);background-size:56px 56px;opacity:.07;filter:blur(1px);animation:poleV 2.4s linear infinite;z-index:-1}
+.final .pole-bg{position:absolute;left:50%;top:0;bottom:0;width:120px;transform:translateX(-50%);opacity:.08;z-index:-1;--spd:7s;-webkit-mask:linear-gradient(transparent,#000 25%,#000 75%,transparent);mask:linear-gradient(transparent,#000 25%,#000 75%,transparent)}
 
 /* Footer */
 footer{border-top:1px solid var(--line);padding:60px 0 110px;color:var(--mute);font-size:15px}
@@ -292,7 +354,7 @@ footer{border-top:1px solid var(--line);padding:60px 0 110px;color:var(--mute);f
 @media (max-width:900px){.foot{grid-template-columns:1fr 1fr}}
 
 /* Mobile sticky book bar */
-.mbar{position:fixed;left:12px;right:12px;bottom:12px;z-index:55;display:none;gap:10px;padding:10px;border-radius:999px;background:rgba(14,14,17,.9);backdrop-filter:blur(12px);border:1px solid var(--line-2);transform:translateY(140%);transition:transform .45s var(--ease)}
+.mbar{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:55;display:none;gap:10px;padding:10px;border-radius:999px;background:rgba(14,14,17,.9);backdrop-filter:blur(12px);border:1px solid var(--line-2);transform:translateY(140%);transition:transform .45s var(--ease)}
 .mbar.show{transform:none}
 .mbar .btn{flex:1;--h:50px}
 @media (max-width:760px){.mbar{display:flex}}
@@ -302,7 +364,7 @@ footer{border-top:1px solid var(--line);padding:60px 0 110px;color:var(--mute);f
 .demo-dock span{font-family:var(--cond);letter-spacing:.2em;font-size:11px;color:var(--gold);align-self:center;padding:0 8px 0 10px;text-transform:uppercase}
 .demo-dock button{height:36px;padding:0 14px;border-radius:999px;font-family:var(--cond);font-weight:600;letter-spacing:.12em;text-transform:uppercase;font-size:13px;color:var(--silver);border:1px solid var(--line-2)}
 .demo-dock button:hover{background:var(--chrome);color:#0a0a0b}
-@media (max-width:760px){.demo-dock{left:auto;right:10px;top:84px;bottom:auto;padding:4px}.demo-dock span{display:none}.demo-dock button{height:30px;padding:0 10px;font-size:11.5px}}
+@media (max-width:760px){.demo-dock{left:50%;bottom:calc(84px + env(safe-area-inset-bottom,0px));padding:4px;transform:translate(-50%,20px);opacity:0;pointer-events:none;transition:transform .45s var(--ease),opacity .35s}.demo-dock.show{transform:translate(-50%,0);opacity:1;pointer-events:auto}.demo-dock span{display:none}.demo-dock button{height:32px;padding:0 12px;font-size:11.5px}}
 
 /* Overlay shell (booking + owner) */
 .sheet{position:fixed;inset:0;z-index:100;background:rgba(4,4,5,.72);backdrop-filter:blur(8px);display:flex;justify-content:flex-end;opacity:0;visibility:hidden;transition:opacity .35s,visibility .35s}
@@ -319,7 +381,7 @@ footer{border-top:1px solid var(--line);padding:60px 0 110px;color:var(--mute);f
 .p-foot{border-top:1px solid var(--line);padding:16px 24px;display:flex;align-items:center;justify-content:space-between;gap:14px;background:var(--ink)}
 .steps{display:flex;gap:6px;padding:14px 24px 0}
 .steps i{flex:1;height:5px;border-radius:3px;background:var(--steel-2);overflow:hidden;position:relative}
-.steps i.on::after{content:"";position:absolute;inset:0;background:var(--pole);background-size:20px 20px;animation:poleMove .8s linear infinite}
+.steps i.on::after{content:"";position:absolute;top:0;bottom:0;left:calc(var(--pp) * -1);right:0;background:var(--pole);animation:poleSide 1.8s linear infinite;will-change:transform}
 .steps i.done{background:var(--chrome)}
 .step-t{font-family:var(--cond);letter-spacing:.22em;text-transform:uppercase;font-size:12.5px;color:var(--mute);margin-bottom:6px}
 .step-h{font-family:var(--display);text-transform:uppercase;font-size:34px;line-height:1;margin-bottom:20px}
@@ -391,7 +453,7 @@ footer{border-top:1px solid var(--line);padding:60px 0 110px;color:var(--mute);f
 .cl-list b{font-family:var(--cond);font-size:18px;letter-spacing:.04em;text-transform:uppercase}
 .cl-list small{color:var(--mute);font-size:13px}
 .journey{position:relative;padding-left:26px}
-.journey::before{content:"";position:absolute;left:8px;top:6px;bottom:6px;width:3px;border-radius:2px;background:var(--pole);background-size:12px 12px}
+.journey::before{content:"";position:absolute;left:8px;top:6px;bottom:6px;width:3px;border-radius:2px;background:var(--pole)}
 .jn{position:relative;padding:0 0 18px}
 .jn::before{content:"";position:absolute;left:-24px;top:6px;width:13px;height:13px;border-radius:50%;background:var(--chrome);box-shadow:0 0 0 4px var(--coal)}
 .jn b{font-family:var(--cond);font-size:18px;letter-spacing:.04em;text-transform:uppercase}
@@ -409,21 +471,26 @@ table.cal{width:100%;border-collapse:collapse;font-size:14px}
 @media (max-width:860px){.kpis{grid-template-columns:1fr 1fr}.two,.clients{grid-template-columns:1fr}.stop{grid-template-columns:70px 1fr}.stop .pill{grid-column:2;justify-self:start}}
 
 /* Exit-intent: spin the pole */
-.spin-card{width:min(100% - 30px,460px);margin:auto;background:var(--coal);border:1px solid var(--line-2);border-radius:20px;padding:30px;text-align:center;position:relative;transform:scale(.94);transition:transform .4s var(--ease)}
-.sheet.center{justify-content:center;align-items:center}
-.sheet.open .spin-card{transform:none}
-.spin-card h3{font-size:44px;margin:8px 0}
+.spin-card{width:min(100% - 28px,500px);margin:auto;background:radial-gradient(120% 80% at 50% 0%,#17181c,var(--coal) 60%);border:1px solid var(--line-2);border-radius:22px;padding:30px 28px 24px;text-align:center;position:relative;transform:translateY(16px) scale(.96);opacity:.0;transition:transform .55s var(--ease),opacity .4s}
+.sheet.center{justify-content:center;align-items:center;padding:14px}
+.sheet.open .spin-card{transform:none;opacity:1}
+.spin-card h3{font-size:clamp(36px,9vw,48px);margin:8px 0 6px}
 .spin-card p{color:var(--silver)}
-.reel{position:relative;height:84px;margin:24px 0 20px;border-radius:14px;border:1px solid var(--line-2);overflow:hidden;background:var(--ink)}
-.reel::before,.reel::after{content:"";position:absolute;left:0;right:0;height:26px;z-index:2;pointer-events:none}
-.reel::before{top:0;background:linear-gradient(var(--ink),transparent)}.reel::after{bottom:0;background:linear-gradient(transparent,var(--ink))}
-.reel ul{list-style:none;transition:transform 2.6s cubic-bezier(.12,.8,.12,1)}
-.reel li{height:84px;display:grid;place-items:center;font-family:var(--display);font-size:30px;text-transform:uppercase}
-.reel .mark{position:absolute;left:0;right:0;top:50%;height:2px;margin-top:-1px;background:var(--pole);background-size:20px 20px;opacity:.5;z-index:3}
-.spin-pole{width:30px;height:100%;position:absolute;left:12px;top:0;background:var(--pole);background-size:28px 28px;opacity:.9;z-index:4}
-.spin-pole.r{left:auto;right:12px}
-.spin-pole.go{animation:poleV .25s linear infinite}
-.code{display:inline-block;margin-top:12px;font-family:var(--cond);letter-spacing:.3em;font-size:22px;padding:10px 18px;border:1px dashed var(--chrome);border-radius:10px}
+.machine{display:grid;grid-template-columns:56px 1fr;gap:18px;align-items:center;margin:22px 0 18px}
+.machine .pole-unit .pole{width:34px;height:150px}
+.machine .cap.top,.machine .cap.bot{width:46px}
+.reel{position:relative;height:150px;border-radius:14px;border:1px solid var(--line-2);overflow:hidden;background:linear-gradient(180deg,#050506,#0d0e10 50%,#050506)}
+.reel::before,.reel::after{content:"";position:absolute;left:0;right:0;height:46px;z-index:2;pointer-events:none}
+.reel::before{top:0;background:linear-gradient(#050506,rgba(5,5,6,0))}.reel::after{bottom:0;background:linear-gradient(rgba(5,5,6,0),#050506)}
+.reel ul{list-style:none;will-change:transform;transform:translate3d(0,0,0)}
+.reel li{height:50px;display:grid;place-items:center;padding:0 16px;font-family:var(--display);font-size:clamp(18px,4.6vw,24px);line-height:1.05;text-transform:uppercase;letter-spacing:.02em;color:var(--silver)}
+.reel li.win{color:#fff;text-shadow:0 0 18px rgba(255,255,255,.55)}
+.reel .window{position:absolute;left:8px;right:8px;top:50px;height:50px;border-radius:10px;border:1px solid rgba(255,255,255,.35);box-shadow:0 0 0 1px rgba(0,0,0,.6) inset,0 0 24px rgba(255,255,255,.06);z-index:3;pointer-events:none}
+.reel .ptr{position:absolute;left:-1px;top:75px;width:14px;height:16px;margin-top:-8px;z-index:4;background:var(--chrome);clip-path:polygon(0 0,100% 50%,0 100%);transform-origin:0 50%}
+.reel .ptr.r{left:auto;right:-1px;clip-path:polygon(100% 0,0 50%,100% 100%);transform-origin:100% 50%}
+.code{display:inline-block;margin-top:10px;font-family:var(--cond);font-weight:700;letter-spacing:.3em;font-size:22px;padding:10px 18px;border:1px dashed var(--chrome);border-radius:10px}
+.spin-card .eyebrow{margin-top:6px}
+@media (max-width:480px){.spin-card{padding:52px 18px 20px}.machine{grid-template-columns:48px 1fr;gap:12px}}
 .spin-card .p-x{position:absolute;top:14px;right:14px}
 
 /* Reveal defaults (JS adds motion; content visible without JS) */
@@ -452,12 +519,13 @@ table.cal{width:100%;border-collapse:collapse;font-size:14px}
     <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
     <symbol id="i-crown" viewBox="0 0 24 24"><path d="m3 8 4 4 5-7 5 7 4-4-2 11H5z"/></symbol>
     <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></symbol>
+    <symbol id="i-zoom" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5M11 8v6M8 11h6"/></symbol>
     <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2.5 2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></symbol>
   </defs>
 </svg>
 
-<div id="loader" aria-hidden="true"><div><div class="loader-pole"></div><div class="loader-txt">YOUR CROWN<br>MY CRAFT</div></div></div>
-<div id="scrollPole" aria-hidden="true"><i></i></div>
+<div id="loader" aria-hidden="true"><div><div class="pole-unit loader-unit"><b class="cap top" style="width:40px"></b><div class="pole spin loader-pole"><i></i></div><b class="cap bot" style="width:40px"></b></div><div class="loader-txt">YOUR CROWN<br>MY CRAFT</div></div></div>
+<div id="scrollPole" aria-hidden="true"><b class="cap" style="border-radius:6px 6px 2px 2px"></b><div class="track"><div class="pole" id="spPole"><i></i></div></div><b class="cap" style="border-radius:2px 2px 6px 6px"></b></div>
 
 <header class="nav" id="nav">
   <div class="wrap">
@@ -472,7 +540,7 @@ table.cal{width:100%;border-collapse:collapse;font-size:14px}
     </div>
   </div>
 </header>
-<nav class="mnav" id="mnav" aria-label="Mobile">
+<nav class="mnav" id="mnav" aria-label="Mobile" data-lenis-prevent>
   <button class="x" id="mnavX" aria-label="Close menu"><svg class="ico"><use href="#i-x"/></svg></button>
   <a href="#how">How It Works</a><a href="#services">Services</a><a href="#work">The Work</a><a href="#reviews">Reviews</a><a href="#club">Crown Club</a><a href="#faq">FAQ</a>
   <button class="btn btn-chrome" data-book style="margin-top:24px">Book Now</button>
@@ -481,13 +549,13 @@ table.cal{width:100%;border-collapse:collapse;font-size:14px}
 <main id="top">
 <!-- HERO -->
 <section class="hero" aria-label="Intro">
-  <div class="hero-bg" id="heroBg"><img src="assets/hero.webp" alt="" fetchpriority="high"></div>
+  <div class="hero-bg" id="heroBg"><img src="assets/hero.webp" alt="" width="2000" height="1125" fetchpriority="high"></div>
   <div class="wrap hero-grid">
     <div class="hero-logo rv" id="heroLogo"><img src="assets/logo.webp" alt="MurdaWon logo: chrome script with barber pole, crown and scissors" width="1400" height="736"><span class="shine"></span></div>
     <div class="hero-copy">
     <span class="eyebrow">Mobile Barber &middot; Richmond, VA</span>
     <h1 id="heroH1" style="margin-top:14px"><span class="line"><span class="chrome-text">The cut comes</span></span><span class="line"><span class="chrome-text">to you.</span></span></h1>
-    <p class="lead">20+ years behind the clippers. Bald fades, shadow fades, tapers, braids and razor-sharp shape ups, done at your door or in a private studio. No waiting room. No rushing. Just the cut you asked for, done better.</p>
+    <p class="lead">20+ years behind the clippers. Bald fades, shadow fades, temp fades, tapers and razor-sharp line ups, done at your door or in a private studio. No waiting room. No rushing. Just the cut you asked for, done better.</p>
     <div class="hero-ctas">
       <button class="btn btn-chrome" data-book><svg class="ico"><use href="#i-cal"/></svg>Book Your Cut</button>
       <a class="btn btn-ghost" href="#services">See Prices<svg class="ico"><use href="#i-arrow"/></svg></a>
@@ -544,7 +612,7 @@ table.cal{width:100%;border-collapse:collapse;font-size:14px}
         <span class="num">02 / Studio</span>
         <h3>Private<br>in-home studio.</h3>
         <p>Prefer to come in? Sit down in a private, one-chair studio in Richmond (23225). No crowd, no noise, just you and the cut.</p>
-        <ul><li><svg class="ico"><use href="#i-check"/></svg>One client at a time</li><li><svg class="ico"><use href="#i-check"/></svg>Exact address sent when you book</li><li><svg class="ico"><use href="#i-check"/></svg>Shampoo and blow dry for braids and removals</li></ul>
+        <ul><li><svg class="ico"><use href="#i-check"/></svg>One client at a time</li><li><svg class="ico"><use href="#i-check"/></svg>Exact address sent when you book</li><li><svg class="ico"><use href="#i-check"/></svg>Shampoo and blow dry with dread removals</li></ul>
         <div><button class="btn btn-chrome" data-book data-mode="studio"><svg class="ico"><use href="#i-home"/></svg>Book Studio</button></div>
       </article>
     </div>
@@ -567,11 +635,11 @@ table.cal{width:100%;border-collapse:collapse;font-size:14px}
         <button class="chip" data-f="all" aria-pressed="true">All</button>
         <button class="chip" data-f="fade" aria-pressed="false">Fades</button>
         <button class="chip" data-f="cut" aria-pressed="false">Cuts &amp; Lines</button>
-        <button class="chip" data-f="hair" aria-pressed="false">Braids &amp; Locs</button>
+        <button class="chip" data-f="hair" aria-pressed="false">Dread Removal</button>
       </div>
     </div>
     <div class="svc-list" id="svcList"></div>
-    <p class="svc-note"><svg class="ico"><use href="#i-info"/></svg>Prices from MurdaWon's current theCut menu. Braids start at $10 per braid and depend on how many and how intricate. Beard enhancement on a Shape Up is +$5 on request. Ages 16 and up.</p>
+    <p class="svc-note"><svg class="ico"><use href="#i-info"/></svg>Prices from MurdaWon's current theCut menu. Beard enhancement on a Shape Up is +$5 on request. Ages 16 and up.</p>
   </div>
 </section>
 
@@ -580,16 +648,15 @@ table.cal{width:100%;border-collapse:collapse;font-size:14px}
   <div class="wrap">
     <div class="sec-head">
       <div><span class="eyebrow">The Work</span><h2 id="workTitle">Proof is<br>in the <span class="chrome-text">lineup</span>.</h2></div>
-      <p class="lead" style="max-width:38ch">80+ fresh cuts posted on theCut and Instagram. See the fades, tapers and braids for yourself.</p>
+      <p class="lead" style="max-width:38ch">Real clients, real cuts, straight off his chair. Tap any photo to see it up close.</p>
     </div>
-    <!-- NEEDS REAL PHOTO: replace each .needs tile with MurdaWon's own portfolio photos (theCut / Instagram). Do NOT use theCut photo #0. -->
-    <div class="work-grid" id="workGrid">
-      <div class="work-tile wide rv"><img src="assets/hero.webp" alt="Chrome clippers, razor and shears on a black leather tray" loading="lazy"><span class="lbl">The Tools</span></div>
-      <div class="work-tile rv"><img src="assets/studio.webp" alt="Private in-home barber studio" loading="lazy"><span class="lbl">The Studio</span></div>
-      <!-- NEEDS REAL PHOTO: add MurdaWon portfolio tiles here, e.g.
-      <div class="work-tile rv"><img src="assets/work-bald-fade.webp" alt="Bald fade by MurdaWon" loading="lazy"><span class="lbl">Bald Fade</span></div>
-      Never use theCut photo #0. -->
+    <div class="work-filter svc-filter" role="group" aria-label="Filter the work">
+      <button class="chip" data-w="all" aria-pressed="true">All</button>
+      <button class="chip" data-w="fade" aria-pressed="false">Fades</button>
+      <button class="chip" data-w="taper" aria-pressed="false">Tapers</button>
+      <button class="chip" data-w="line" aria-pressed="false">Line Ups</button>
     </div>
+    <div class="work-grid" id="workGrid"></div>
     <div class="work-cta">
       <a class="btn btn-ghost" href="https://book.thecut.co/MurdaWonLLC" target="_blank" rel="noopener">See 80+ cuts on theCut<svg class="ico"><use href="#i-ext"/></svg></a>
       <a class="btn btn-ghost" href="https://www.instagram.com/murda_won/" target="_blank" rel="noopener"><svg class="ico"><use href="#i-ig"/></svg>Follow @murda_won</a>
@@ -642,7 +709,7 @@ table.cal{width:100%;border-collapse:collapse;font-size:14px}
 
 <!-- FINAL CTA -->
 <section class="final" aria-labelledby="finalTitle">
-  <div class="pole-bg" aria-hidden="true"></div>
+  <div class="pole spin pole-bg" aria-hidden="true"><i></i></div>
   <div class="wrap">
     <span class="eyebrow">Richmond, VA &middot; Opens 9 AM</span>
     <h2 id="finalTitle" style="margin-top:16px">Your crown.<br><span class="chrome-text">My craft.</span></h2>
@@ -665,14 +732,23 @@ table.cal{width:100%;border-collapse:collapse;font-size:14px}
 </footer>
 
 <div class="mbar" id="mbar"><button class="btn btn-chrome" data-book>Book Now</button><a class="btn btn-ghost" href="#services" style="flex:.6">Prices</a></div>
-<div class="demo-dock" role="group" aria-label="Demo views"><span>Demo</span><button data-book>Client Booking</button><button id="openOwner">Owner Portal</button></div>
+<div class="demo-dock" id="dock" role="group" aria-label="Demo views"><span>Demo</span><button data-book>Client Booking</button><button id="openOwner">Owner Portal</button></div>
+
+<!-- LIGHTBOX -->
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button class="p-x" id="lbX" aria-label="Close photo"><svg class="ico"><use href="#i-x"/></svg></button>
+  <button class="nav-b prev" id="lbP" aria-label="Previous photo"><svg class="ico" style="transform:scaleX(-1)"><use href="#i-arrow"/></svg></button>
+  <figure><img id="lbImg" alt=""><figcaption><span id="lbCap"></span><span id="lbNum"></span></figcaption>
+  <button class="btn btn-chrome" data-book style="width:100%;margin-top:14px">Book This Cut</button></figure>
+  <button class="nav-b next" id="lbN" aria-label="Next photo"><svg class="ico"><use href="#i-arrow"/></svg></button>
+</div>
 
 <!-- BOOKING SHEET -->
 <div class="sheet" id="bookSheet" role="dialog" aria-modal="true" aria-labelledby="bkTitle">
   <div class="panel">
     <div class="p-head"><div style="display:flex;align-items:center;gap:12px"><h3 id="bkTitle">Book with MurdaWon</h3><span class="demo">Demo</span></div><button class="p-x" data-close aria-label="Close booking"><svg class="ico"><use href="#i-x"/></svg></button></div>
     <div class="steps" id="bkSteps"><i></i><i></i><i></i><i></i><i></i></div>
-    <div class="p-body" id="bkBody"></div>
+    <div class="p-body" id="bkBody" data-lenis-prevent></div>
     <div class="p-foot">
       <div class="total"><small>Your total</small><b id="bkTotal">$0</b><span id="bkMeta">Pick a service</span></div>
       <div style="display:flex;gap:8px"><button class="btn btn-ghost btn-sm" id="bkBack">Back</button><button class="btn btn-chrome btn-sm" id="bkNext">Continue</button></div>
@@ -690,7 +766,7 @@ table.cal{width:100%;border-collapse:collapse;font-size:14px}
       <button class="tab" role="tab" data-t="clients" aria-selected="false">Clients</button>
       <button class="tab" role="tab" data-t="money" aria-selected="false">Earnings</button>
     </div>
-    <div class="p-body" id="owBody"></div>
+    <div class="p-body" id="owBody" data-lenis-prevent></div>
   </div>
 </div>
 
@@ -701,15 +777,18 @@ table.cal{width:100%;border-collapse:collapse;font-size:14px}
     <span class="eyebrow">Before you go</span>
     <h3 id="spTitle" class="chrome-text">Spin the Pole</h3>
     <p>One spin. Whatever it lands on is yours on your first booking.</p>
-    <div class="reel"><span class="spin-pole" id="sp1"></span><span class="spin-pole r" id="sp2"></span><span class="mark"></span><ul id="reel"></ul></div>
+    <div class="machine">
+      <div class="pole-unit"><b class="cap top"></b><div class="pole" id="spinPole"><i></i></div><b class="cap bot"></b></div>
+      <div class="reel" data-lenis-prevent><span class="window"></span><span class="ptr" id="ptrL"></span><span class="ptr r" id="ptrR"></span><ul id="reel"></ul></div>
+    </div>
     <div id="spinOut"><button class="btn btn-chrome" id="spinBtn" style="width:100%">Spin It</button></div>
     <p class="note" style="justify-content:center"><svg class="ico" style="width:16px;height:16px"><use href="#i-info"/></svg>Rewards are proposals for MurdaWon to approve.</p>
   </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="assets/js/gsap.min.js"></script>
+<script src="assets/js/ScrollTrigger.min.js"></script>
+<script src="assets/js/lenis.min.js"></script>
 <script>
 /* =========================================================
    DATA LAYER (demo). Swap-later seam: replace DB methods
@@ -724,7 +803,6 @@ const DB = {
     {id:"even",  cat:"cut",  name:"All Even",       price:35, min:30, desc:"All even cut, shape up and beard."},
     {id:"gent",  cat:"cut",  name:"Gentlemen Cut",  price:35, min:35, desc:"Fade blended from a #2 guard up, shape up and face."},
     {id:"shape", cat:"cut",  name:"Shape Up",       price:30, min:30, desc:"Full shape up of the entire head, front and back, hot beard comb-through and straight-razor line all around."},
-    {id:"braids",cat:"hair", name:"Braids",         price:60, min:60, from:true, desc:"Starts at $10 a braid, priced by count and how intricate. Includes shampoo, conditioner and blow dry."},
     {id:"dread", cat:"hair", name:"Dread Removal",  price:50, min:45, desc:"Full transformation: loc removal with shears, shampoo, conditioner, blow dry and cut."}
   ],
   addons:[ {id:"beard", name:"Beard Enhancement", price:5, only:["shape"], desc:"Available on Shape Up, on request."} ],
@@ -739,11 +817,23 @@ const DB = {
   faq:[
     ["How does mobile booking work?","Pick Mobile when you book and enter where you want the cut: home, office, hotel or event. MurdaWon brings the full professional setup, cuts you on site and leaves the space clean."],
     ["Where is the studio?","It's a private in-home studio in Richmond (23225). The exact address comes with your booking confirmation, so it stays private."],
-    ["How much does a cut cost?","Cuts start at $30 for a Shape Up. Fades are $45, All Even and Gentlemen Cuts are $35, Dread Removal is $50, and Braids start at $60 (about $10 per braid, depending on the style)."],
+    ["How much does a cut cost?","Cuts start at $30 for a Shape Up. Fades are $45, All Even and Gentlemen Cuts are $35, and Dread Removal is $50."],
     ["What areas do you travel to?","Richmond and the surrounding area. Enter your address when you book and you'll know right away."],
     ["Do you cut kids?","The current menu is for ages 16 and up."],
     ["What time do you open?","Appointments start at 9 AM. Open times show live in the booking calendar."],
     ["How do I pay?","Booking holds your time. Payment options are confirmed with your appointment."]
+  ],
+  work:[ /* MurdaWon's own theCut portfolio (owner's partner photo excluded by request). z: big = 2x2, r = big placed right on desktop, mt = tall on phones only */
+    {f:"work-waves-fade",c:"fade",t:"Waves + Low Fade",z:"big"},
+    {f:"work-braids-back",c:"line",t:"Temp Fade + Line Up",z:"mt"},
+    {f:"work-bald-fade-part",c:"fade",t:"Bald Fade + Hard Part"},
+    {f:"work-beard-taper",c:"taper",t:"Taper + Beard Sculpt"},
+    {f:"work-high-fade",c:"fade",t:"High Skin Fade",z:"mt"},
+    {f:"work-skin-fade-line",c:"fade",t:"Skin Fade + Line Up",z:"big r"},
+    {f:"work-braids-straight",c:"line",t:"Temp Fade + Beard Line Up",z:"mt"},
+    {f:"work-taper-waves",c:"taper",t:"Taper + Waves"},
+    {f:"work-low-fade",c:"taper",t:"Low Taper",z:"mt"},
+    {f:"work-braids-bun",c:"line",t:"Line Up + Beard Shape"}
   ],
   spin:["$5 Off","Free Beard Enhancement","$5 Off","Priority Booking","$10 Off","Free Hot Towel"], /* NEEDS CLIENT CONFIRMATION */
   /* Availability: deterministic mock "taken" slots so the demo feels live */
@@ -765,15 +855,15 @@ const OWNER = {
   today:[
     {t:"9:30",ap:"AM",c:"Marcus T.",s:"Taper Fade",p:45,mode:"mobile",where:"Forest Hill",st:"done"},
     {t:"10:30",ap:"AM",c:"Devin R.",s:"Bald Fade",p:45,mode:"mobile",where:"Westover Hills",st:"done"},
-    {t:"12:00",ap:"PM",c:"Andre W.",s:"Braids",p:80,mode:"studio",where:"Studio",st:"next"},
+    {t:"12:00",ap:"PM",c:"Andre W.",s:"Dread Removal",p:50,mode:"studio",where:"Studio",st:"next"},
     {t:"2:00",ap:"PM",c:"Jordan K.",s:"Shape Up + Beard",p:35,mode:"mobile",where:"Manchester",st:""},
     {t:"3:30",ap:"PM",c:"Chris B.",s:"Shadow Fade",p:45,mode:"mobile",where:"Church Hill",st:""},
     {t:"5:00",ap:"PM",c:"Malik J.",s:"Gentlemen Cut",p:35,mode:"studio",where:"Studio",st:""}
   ],
-  week:{Mon:[["9:30","Taper - Marcus",0],["1:00","Braids - Andre",1]],Tue:[["10:00","Bald - Devin",0],["3:00","Shape Up - Ty",0]],Wed:[["9:00","Shadow - Chris",0],["11:00","All Even - Sam",1],["4:30","Gent - Malik",1]],Thu:[["12:00","Dread Removal - Eli",1]],Fri:[["9:30","Taper - Jordan",0],["11:00","Bald - Reggie",0],["2:00","Shadow - Kev",0],["5:00","Taper - Nate",1]],Sat:[["9:00","Group (3) - Event",0],["1:00","Braids - Tre",1]],Sun:[["11:00","Bald - Devin",0]]},
+  week:{Mon:[["9:30","Taper - Marcus",0],["1:00","Dread Removal - Andre",1]],Tue:[["10:00","Bald - Devin",0],["3:00","Shape Up - Ty",0]],Wed:[["9:00","Shadow - Chris",0],["11:00","All Even - Sam",1],["4:30","Gent - Malik",1]],Thu:[["12:00","Dread Removal - Eli",1]],Fri:[["9:30","Taper - Jordan",0],["11:00","Bald - Reggie",0],["2:00","Shadow - Kev",0],["5:00","Taper - Nate",1]],Sat:[["9:00","Group (3) - Event",0],["1:00","Taper - Tre",1]],Sun:[["11:00","Bald - Devin",0]]},
   clients:[
     {n:"Marcus T.",since:"Client since 2024",visits:14,club:"Stay Fresh",j:[["Nov 21","Taper Fade","Low taper, kept length on top. Likes a soft line, no hard part."],["Nov 7","Taper Fade","Same as last. Added beard line-up."],["Oct 24","Bald Fade","Tried bald for the first time, switched back to taper."]]},
-    {n:"Andre W.",since:"Client since 2025",visits:6,club:"Maintenance",j:[["Nov 22","Braids","8 straight backs, medium. Shampoo and blow dry."],["Oct 18","Braids","6 straight backs with a zig-zag part."]]},
+    {n:"Andre W.",since:"Client since 2025",visits:6,club:"Maintenance",j:[["Nov 22","Dread Removal","Full loc removal with shears, shampoo, blow dry and a low taper."],["Oct 18","Shape Up","Shape up and beard line up before the removal."]]},
     {n:"Devin R.",since:"Client since 2024",visits:21,club:"The Crown",j:[["Nov 21","Bald Fade","Skin to 1.5, beard faded into the sides."],["Nov 14","Bald Fade","Same cut. Asked for a sharper beard line."]]},
     {n:"Jordan K.",since:"New client",visits:1,club:"None",j:[["Nov 22","Shape Up + Beard","First visit, found us on Instagram."]]}
   ],
@@ -788,7 +878,7 @@ const RM = matchMedia("(prefers-reduced-motion: reduce)").matches;
 $("#yr").textContent=new Date().getFullYear();
 
 /* ============ render content ============ */
-$("#ticker").innerHTML=(()=>{const w=["Bald Fades","Shadow Fades","Taper Fades","Shape Ups","Braids","Gentlemen Cuts","Mobile Barber","Richmond VA"];const s=w.map(x=>`<span>${x}</span>`).join("");return s+s;})();
+$("#ticker").innerHTML=(()=>{const w=["Bald Fades","Shadow Fades","Taper Fades","Shape Ups","Line Ups","Gentlemen Cuts","Mobile Barber","Richmond VA"];const s=w.map(x=>`<span>${x}</span>`).join("");return s+s;})();
 $("#svcList").innerHTML=DB.services.map((s,i)=>`
   <div class="svc rv" data-cat="${s.cat}">
     <span class="n">${String(i+1).padStart(2,"0")}</span>
@@ -797,8 +887,31 @@ $("#svcList").innerHTML=DB.services.map((s,i)=>`
     <button class="add" data-book data-svc="${s.id}" aria-label="Book ${s.name}">${icon("plus")}</button>
   </div>`).join("");
 $("#revTrack").innerHTML=DB.reviews.map(r=>`<figure class="rev rv"><q>${r.t}</q><figcaption class="who"><span>${r.n}</span><span class="stars">${'<svg><use href="#i-star"/></svg>'.repeat(5)}</span></figcaption></figure>`).join("");
+$("#workGrid").innerHTML=DB.work.map((w,i)=>`<button class="work-tile ${w.z||""}" data-i="${i}" data-c="${w.c}" aria-label="View ${w.t}"><img src="assets/${w.f}.webp" alt="${w.t} by MurdaWon, Richmond VA barber" loading="lazy" width="799" height="799"><span class="lbl">${w.t}</span><span class="zoom">${icon("zoom")}</span></button>`).join("");
 $("#faqList").innerHTML=DB.faq.map(([q,a])=>`<details><summary>${q}<span class="pm">${icon("plus")}</span></summary><p>${a}</p></details>`).join("");
 $("#fadeWord").innerHTML="THE FADE".split("").map(c=>`<span>${c===" "?"&nbsp;":c}</span>`).join("");
+
+/* work filter + lightbox */
+$$(".work-filter .chip").forEach(c=>c.addEventListener("click",()=>{
+  $$(".work-filter .chip").forEach(x=>x.setAttribute("aria-pressed",x===c));
+  const f=c.dataset.w; $$(".work-tile").forEach(t=>t.hidden=!(f==="all"||t.dataset.c===f));
+  if(window.gsap&&!RM) gsap.fromTo(".work-tile:not([hidden])",{opacity:0,y:20},{opacity:1,y:0,duration:.6,stagger:.05,ease:"power3.out"});
+  if(window.ScrollTrigger) ScrollTrigger.refresh();
+}));
+let LBI=0; const lb=$("#lb");
+function lbShow(i){ const vis=$$(".work-tile:not([hidden])").map(t=>+t.dataset.i); if(!vis.length) return; const k=(vis.indexOf(LBI)+(i)+vis.length)%vis.length; LBI=vis[k]; const w=DB.work[LBI]; const im=$("#lbImg"); im.src=`assets/${w.f}.webp`; im.alt=w.t+" by MurdaWon"; $("#lbCap").textContent=w.t; $("#lbNum").textContent=`${k+1} / ${vis.length}`; }
+function lbOpen(i){ LBI=i; lbShow(0); lastFocus=document.activeElement; lb.classList.add("open"); document.documentElement.style.overflow="hidden"; lenis&&lenis.stop(); $("#lbX").focus(); }
+function lbClose(){ lb.classList.remove("open"); document.documentElement.style.overflow=""; lenis&&lenis.start(); lastFocus&&lastFocus.focus&&lastFocus.focus(); }
+$("#workGrid").addEventListener("click",e=>{const t=e.target.closest(".work-tile"); if(t) lbOpen(+t.dataset.i);});
+$("#lbX").onclick=lbClose; $("#lbP").onclick=()=>lbShow(-1); $("#lbN").onclick=()=>lbShow(1);
+lb.addEventListener("click",e=>{ if(e.target===lb) lbClose(); if(e.target.closest("[data-book]")) lbClose(); });
+addEventListener("keydown",e=>{ if(!lb.classList.contains("open")) return; if(e.key==="Escape") lbClose(); if(e.key==="ArrowRight") lbShow(1); if(e.key==="ArrowLeft") lbShow(-1); });
+let tx=0; lb.addEventListener("touchstart",e=>tx=e.touches[0].clientX,{passive:true}); lb.addEventListener("touchend",e=>{const d=e.changedTouches[0].clientX-tx; if(Math.abs(d)>50) lbShow(d<0?1:-1);},{passive:true});
+/* phones have no hover: color each photo in as it reaches the middle of the screen */
+if(!matchMedia("(hover:hover)").matches && "IntersectionObserver" in window){
+  const io=new IntersectionObserver(es=>es.forEach(en=>en.target.classList.toggle("lit",en.isIntersecting)),{rootMargin:"-35% 0px -35% 0px"});
+  $$(".work-tile").forEach(t=>io.observe(t));
+}
 
 /* service filter */
 $$(".chip").forEach(c=>c.addEventListener("click",()=>{
@@ -816,14 +929,26 @@ $$("#mnav a").forEach(a=>a.addEventListener("click",()=>mnav.classList.remove("o
 
 /* ============ smooth scroll + motion ============ */
 let lenis=null;
+const PP = 4*7*Math.SQRT2;                 /* pole stripe period (px), matches --pp */
+const spPole=$("#spPole"), spStripes=spPole?spPole.querySelector("i"):null;
+let sTarget=0, sCur=0, drift=0, lastT=performance.now(), shownBar=false, solid=false;
 function onScroll(y){
-  nav.classList.toggle("solid",y>40);
-  mbar.classList.toggle("show",y>window.innerHeight*.7);
+  const s1=y>40; if(s1!==solid){solid=s1; nav.classList.toggle("solid",s1);}
+  const s2=y>window.innerHeight*.7; if(s2!==shownBar){shownBar=s2; mbar.classList.toggle("show",s2); $("#dock").classList.toggle("show",s2);}
   const max=document.documentElement.scrollHeight-innerHeight;
-  const p=max>0?Math.min(1,y/max):0;
-  const bar=$("#scrollPole i"); bar.style.transform=`scaleY(${p})`; bar.style.backgroundPosition=`0 ${y*.25}px`;
+  sTarget=max>0?Math.min(1,Math.max(0,y/max)):0;
 }
 addEventListener("scroll",()=>onScroll(scrollY),{passive:true});
+/* One rAF loop: eased fill + stripes that drift slowly and speed up with scroll velocity */
+function poleLoop(t){
+  const dt=Math.min(64,t-lastT); lastT=t;
+  const prev=sCur; sCur+=(sTarget-sCur)*(1-Math.pow(0.0008,dt/1000)); /* frame-rate independent ease */
+  const vel=Math.abs(sCur-prev)*document.documentElement.scrollHeight/Math.max(dt,1); /* px per ms */
+  drift=(drift+dt*(0.012+Math.min(vel,4)*0.35))%PP;
+  if(spPole){ spPole.style.clipPath=`inset(0 0 ${(100-sCur*100).toFixed(3)}% 0)`; spStripes.style.transform=`translate3d(0,${(-drift).toFixed(3)}px,0)`; }
+  requestAnimationFrame(poleLoop);
+}
+if(!RM) requestAnimationFrame(poleLoop); else addEventListener("scroll",()=>{ if(spPole) spPole.style.clipPath=`inset(0 0 ${100-sTarget*100}% 0)`; },{passive:true});
 
 function initMotion(){
   if(!window.gsap){return;}
@@ -857,6 +982,7 @@ function initMotion(){
   // THE FADE: letters fade skin-to-full as you scroll (like a fade grading up)
   const letters=$$("#fadeWord span");
   gsap.fromTo(letters,{opacity:.06,yPercent:30},{opacity:1,yPercent:0,stagger:.12,ease:"none",scrollTrigger:{trigger:".fade-sec",start:"top 80%",end:"center 50%",scrub:1}});
+  gsap.from(".work-tile",{y:60,opacity:0,scale:.96,duration:1,stagger:.07,ease:"power3.out",scrollTrigger:{trigger:"#workGrid",start:"top 85%",once:true}});
   // services lines
   ScrollTrigger.refresh();
 }
@@ -882,9 +1008,9 @@ $$(".sheet").forEach(s=>{
 addEventListener("keydown",e=>{ if(e.key==="Escape"){ const o=$$(".sheet.open").pop(); o&&closeSheet(o);} });
 
 /* ============ BOOKING (5 steps) ============ */
-const BK={step:0,svc:null,addons:[],mode:null,addr:"",day:null,slot:null,name:"",phone:"",email:"",notes:"",braids:6,club:false};
+const BK={step:0,svc:null,addons:[],mode:null,addr:"",day:null,slot:null,name:"",phone:"",email:"",notes:"",club:false};
 const STEP_NAMES=["Service","Where","Time","Details","Confirm"];
-function bkPrice(){ if(!BK.svc) return 0; let p=BK.svc.id==="braids"?Math.max(60,BK.braids*10):BK.svc.price; BK.addons.forEach(id=>{const a=DB.addons.find(x=>x.id===id); if(a) p+=a.price;}); return p; }
+function bkPrice(){ if(!BK.svc) return 0; let p=BK.svc.price; BK.addons.forEach(id=>{const a=DB.addons.find(x=>x.id===id); if(a) p+=a.price;}); return p; }
 function fmtSlot(s){ const h=s.h%12||12; return `${h}:${String(s.m).padStart(2,"0")} ${s.h<12?"AM":"PM"}`; }
 function days14(){ const out=[]; const d=new Date(); d.setHours(0,0,0,0); for(let i=0;i<14;i++){const x=new Date(d); x.setDate(d.getDate()+i); out.push(x);} return out; }
 function stepValid(){
@@ -901,7 +1027,6 @@ function renderBK(){
   if(BK.step===0){
     h=`<div class="step-t">Step 1 of 5 &middot; ${STEP_NAMES[0]}</div><div class="step-h">What are we doing?</div>`+
     DB.services.map(s=>`<button class="opt" data-s="${s.id}" aria-pressed="${BK.svc&&BK.svc.id===s.id}"><span><b>${s.name}</b><small>${s.min>=60?(s.min/60)+" hr":s.min+" min"} &middot; ${s.desc}</small></span><span class="pr">${s.from?"From ":""}${money(s.price)}</span></button>`).join("");
-    if(BK.svc&&BK.svc.id==="braids") h+=`<div class="field" style="margin-top:8px"><label for="bc">How many braids? ($10 each, $60 minimum)</label><input id="bc" type="number" min="2" max="30" value="${BK.braids}"></div>`;
     const ad=DB.addons.filter(a=>BK.svc&&a.only.includes(BK.svc.id));
     if(ad.length) h+=`<div class="step-t" style="margin-top:18px">Add-ons</div>`+ad.map(a=>`<button class="opt" data-a="${a.id}" aria-pressed="${BK.addons.includes(a.id)}"><span><b>${a.name}</b><small>${a.desc}</small></span><span class="pr">+${money(a.price)}</span></button>`).join("");
   }
@@ -915,7 +1040,9 @@ function renderBK(){
     if(BK.mode==="studio") h+=`<p class="note">${icon("pin")}The exact studio address is sent with your confirmation.</p>`;
   }
   if(BK.step===2){
-    const ds=days14(); if(!BK.day) BK.day=ds[0].toDateString();
+    const ds=days14();
+    const openOn=d=>{const n=new Date();return DB.slotsFor(d,BK.svc.min).some(x=>!x.taken&&!(d.toDateString()===n.toDateString()&&(x.h*60+x.m)<=n.getHours()*60+n.getMinutes()+60));};
+    if(!BK.day||!openOn(ds.find(d=>d.toDateString()===BK.day)||ds[0])) BK.day=(ds.find(openOn)||ds[0]).toDateString();
     const sel=ds.find(d=>d.toDateString()===BK.day)||ds[0];
     const now=new Date(); let slots=DB.slotsFor(sel,BK.svc.min);
     h=`<div class="step-t">Step 3 of 5 &middot; ${STEP_NAMES[2]}</div><div class="step-h">Pick your time</div>
@@ -934,7 +1061,7 @@ function renderBK(){
   if(BK.step===4){
     const [d,t]=BK.slot.split("|"); const [hh,mm]=t.split(":").map(Number);
     h=`<div class="step-t">Step 5 of 5 &middot; ${STEP_NAMES[4]}</div><div class="step-h">Lock it in</div>
-    <div class="sum-row"><span>Service</span><span>${BK.svc.name}${BK.svc.id==="braids"?` (${BK.braids} braids)`:""}${BK.addons.length?" + Beard Enhancement":""}</span></div>
+    <div class="sum-row"><span>Service</span><span>${BK.svc.name}${BK.addons.length?" + Beard Enhancement":""}</span></div>
     <div class="sum-row"><span>Where</span><span>${BK.mode==="mobile"?"Mobile: "+BK.addr:"Private studio, Richmond 23225"}</span></div>
     <div class="sum-row"><span>When</span><span>${new Date(d).toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric"})} at ${fmtSlot({h:hh,m:mm})}</span></div>
     <div class="sum-row"><span>Client</span><span>${BK.name} &middot; ${BK.phone}</span></div>
@@ -966,7 +1093,6 @@ function bindBK(){
   $$("[data-k]",b).forEach(x=>x.onclick=()=>{BK.slot=x.dataset.k; renderBK();});
   const live=(id,key)=>{const el=$("#"+id,b); if(el) el.oninput=()=>{BK[key]=el.value; upd();};};
   live("ad","addr");live("fn","name");live("fp","phone");live("fe","email");live("fx","notes");
-  const bc=$("#bc",b); if(bc) bc.oninput=()=>{BK.braids=Math.max(2,Math.min(30,parseInt(bc.value)||2)); $("#bkTotal").textContent=money(bkPrice());};
   const cl=$("[data-club]",b); if(cl) cl.onclick=()=>{BK.club=!BK.club; cl.setAttribute("aria-pressed",BK.club);};
   const ag=$("#bkAgain",b); if(ag) ag.onclick=()=>{Object.assign(BK,{step:0,svc:null,addons:[],slot:null,day:null}); renderBK();};
 }
@@ -999,7 +1125,7 @@ function renderOW(){
     ${extra.length?`<div class="boxx" style="margin-bottom:18px;border-color:var(--chrome)"><h4>Just booked on the website</h4><div class="route">${extra.map(stopHTML).join("")}</div></div>`:""}
     <div class="two"><div class="boxx"><h4>Today's route</h4><div class="route">${all.map(stopHTML).join("")}</div></div>
     <div class="boxx"><h4>Next up</h4>${(()=>{const n=all.find(x=>x.st==="next");return `<div class="step-h" style="font-size:30px;margin-bottom:6px">${n.c}</div><p style="color:var(--silver)">${n.s} &middot; ${n.t} ${n.ap} &middot; ${n.where}</p>
-      <p class="note">${icon("info")}Notes: 8 straight backs, medium. Shampoo and blow dry.</p>
+      <p class="note">${icon("info")}Notes: Full loc removal, then a low taper. Shampoo and blow dry.</p>
       <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:16px"><button class="btn btn-chrome btn-sm" data-demo="Running-late text sent (demo)">Text "Running late"</button><button class="btn btn-ghost btn-sm" data-demo="Marked checked in (demo)">Check in</button></div>`;})()}
       <h4 style="margin-top:24px">Gaps you can fill</h4><p style="color:var(--silver);font-size:15px">1:00 PM - 2:00 PM open. Send a "last-minute chair" blast to 42 clients who haven't booked in 3+ weeks.</p>
       <button class="btn btn-ghost btn-sm" style="margin-top:12px" data-demo="Last-minute blast queued (demo)">Send blast</button></div></div>`;
@@ -1020,7 +1146,7 @@ function renderOW(){
     const mx=Math.max(...OWNER.months.map(m=>m[1]));
     h=`<div class="kpis"><div class="kpi"><small>November</small><b>${money(OWNER.months[5][1])}</b><span>+6% vs Oct</span></div><div class="kpi"><small>Avg ticket</small><b>$47</b><span>across 93 cuts</span></div><div class="kpi"><small>Rebook rate</small><b>71%</b><span>within 4 weeks</span></div><div class="kpi"><small>Club recurring</small><b>$1,640</b><span>per month</span></div></div>
     <div class="two"><div class="boxx"><h4>Monthly revenue</h4><div class="bars">${OWNER.months.map(m=>`<div><small>${money(m[1])}</small><i style="height:${Math.round(m[1]/mx*120)}px"></i><small>${m[0]}</small></div>`).join("")}</div></div>
-    <div class="boxx"><h4>Top services this month</h4>${[["Taper Fade",31],["Bald Fade",24],["Shadow Fade",15],["Shape Up",12],["Braids",7]].map(s=>`<div class="sum-row"><span>${s[0]}</span><span>${s[1]} cuts</span></div>`).join("")}</div></div>`;
+    <div class="boxx"><h4>Top services this month</h4>${[["Taper Fade",31],["Bald Fade",24],["Shadow Fade",15],["Shape Up",12],["Dread Removal",4]].map(s=>`<div class="sum-row"><span>${s[0]}</span><span>${s[1]} cuts</span></div>`).join("")}</div></div>`;
   }
   b.innerHTML=h;
   $$("[data-c]",b).forEach(x=>x.onclick=()=>{OWC=+x.dataset.c; renderOW();});
@@ -1031,22 +1157,43 @@ $$("#owTabs .tab").forEach(t=>t.onclick=()=>{OWT=t.dataset.t; renderOW();});
 $("#openOwner").onclick=()=>{ renderOW(); openSheet($("#ownerSheet")); };
 
 /* ============ EXIT INTENT: SPIN THE POLE ============ */
+/* A real slot-reel: GSAP drives one value; the reel and the 3D pole both read from it,
+   so they accelerate and settle together. Transforms only, no repaints. */
 let spun=false, spinShown=false;
-const reel=$("#reel"); const items=[]; for(let i=0;i<6;i++) items.push(...DB.spin);
+const ROW=50, SETS=9, reel=$("#reel"), spinStripes=$("#spinPole i");
+const items=[]; for(let i=0;i<SETS;i++) items.push(...DB.spin);
 reel.innerHTML=items.map(x=>`<li>${x}</li>`).join("");
-function showSpin(){ if(spinShown||$$(".sheet.open").length) return; spinShown=true; openSheet($("#spinSheet")); }
+const base=ROW; /* first visible row sits in the window (row 1 of 3) */
+function setReel(px){
+  reel.style.transform=`translate3d(0,${(base-px).toFixed(2)}px,0)`;
+  spinStripes.style.transform=`translate3d(0,${(-(px*1.15)%PP).toFixed(2)}px,0)`;
+}
+setReel(0);
+/* idle: slow, smooth pole rotation while the card is open */
+let idle=null;
+function idleSpin(){ if(RM||!window.gsap) return; idle=gsap.to({v:0},{v:PP,duration:2.6,ease:"none",repeat:-1,onUpdate(){ spinStripes.style.transform=`translate3d(0,${-this.targets()[0].v}px,0)`; }}); }
+function showSpin(){ if(spinShown||$$(".sheet.open").length) return; spinShown=true; openSheet($("#spinSheet")); idleSpin(); }
 document.addEventListener("mouseout",e=>{ if(!e.relatedTarget&&e.clientY<8&&scrollY>600) showSpin(); });
 let lastY=0, upDist=0; addEventListener("scroll",()=>{ const y=scrollY; if(innerWidth<760){ if(y<lastY){upDist+=lastY-y; if(upDist>900&&y>1600) showSpin();} else upDist=0;} lastY=y; },{passive:true});
 $("#spinBtn").onclick=()=>{
-  if(spun) return; spun=true;
-  const pick=Math.floor(Math.random()*DB.spin.length); const idx=DB.spin.length*4+pick;
-  $("#sp1").classList.add("go"); $("#sp2").classList.add("go");
-  reel.style.transform=`translateY(-${idx*84}px)`;
-  setTimeout(()=>{ $("#sp1").classList.remove("go"); $("#sp2").classList.remove("go");
+  if(spun) return; spun=true; idle&&idle.kill();
+  const btn=$("#spinBtn"); btn.disabled=true; btn.textContent="Spinning...";
+  const pick=Math.floor(Math.random()*DB.spin.length);
+  const target=(DB.spin.length*(SETS-2)+pick)*ROW; /* lands deep in the strip, always same easing */
+  const finish=()=>{
+    reel.children[target/ROW].classList.add("win");
     $("#spinOut").innerHTML=`<p style="color:var(--chrome);font-weight:600">You won: ${DB.spin[pick]}</p><span class="code">CROWN${(pick+1)*7}</span><button class="btn btn-chrome" data-book style="width:100%;margin-top:16px">Use It Now</button>`;
     $("#spinOut [data-book]").addEventListener("click",()=>closeSheet($("#spinSheet")));
-  }, RM?50:2700);
+    if(window.gsap&&!RM) gsap.from("#spinOut > *",{y:14,opacity:0,duration:.6,stagger:.08,ease:"power3.out"});
+  };
+  if(RM||!window.gsap){ setReel(target); finish(); return; }
+  const st={p:0}; let lastRow=0;
+  const tick=()=>{ const r=Math.floor((st.p+ROW/2)/ROW); if(r!==lastRow){ lastRow=r; gsap.fromTo(["#ptrL","#ptrR"],{scaleX:.55},{scaleX:1,duration:.18,ease:"back.out(3)",overwrite:true}); } };
+  gsap.timeline({onComplete:finish})
+    .to(st,{p:-18,duration:.28,ease:"power2.out",onUpdate:()=>setReel(st.p)})                 /* wind-up */
+    .to(st,{p:target,duration:4.6,ease:"power4.out",onUpdate:()=>{setReel(st.p);tick();}})       /* spin + long smooth settle */;
 };
+$("#spinSheet").addEventListener("click",e=>{ if(e.target===$("#spinSheet")||e.target.closest("[data-close]")) idle&&idle.kill(); });
 
 /* initial */
 onScroll(scrollY);

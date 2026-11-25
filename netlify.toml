@@ -2,7 +2,27 @@
   publish = "."
   command = ""
 
+# One link, always: everything resolves to https://murda-won-website.netlify.app/
+# Netlify already forces HTTPS. Any path that doesn't exist (typos, old links)
+# lands on the homepage instead of a 404. Real files are never redirected.
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 301
+
 [[headers]]
   for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/og-card.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+    Access-Control-Allow-Origin = "*"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
