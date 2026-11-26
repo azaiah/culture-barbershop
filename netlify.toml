@@ -2,13 +2,13 @@
   publish = "."
   command = ""
 
-# One link, always: everything resolves to https://murda-won-website.netlify.app/
-# Netlify already forces HTTPS. Any path that doesn't exist (typos, old links)
-# lands on the homepage instead of a 404. Real files are never redirected.
-[[redirects]]
-  from = "/*"
-  to = "/"
-  status = 301
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+# One link, always: https://culture-barbershop.netlify.app/ (Netlify forces HTTPS).
+# Unknown paths (typos, old links) show 404.html, which sends visitors to the homepage.
+# No catch-all redirect, so /.netlify/functions/* (booking + Twilio webhooks) are never intercepted.
 
 [[headers]]
   for = "/assets/*"
