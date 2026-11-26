@@ -1,4 +1,4 @@
-# MurdaWon — Spec Site (Couture House Co.)
+# Culture (formerly MurdaWon) — Barber Site (Couture House Co.)
 
 Static site: open `index.html` or drag this folder into Netlify (no build step).
 Stack: HTML/CSS/JS, GSAP 3.12.5 + ScrollTrigger, Lenis 1.1.13 (self-hosted in assets/js, no third-party CDN). Demo booking + owner portal run on mock data in the `DB` / `OWNER` objects (swap-later seam: Supabase + Stripe).
@@ -17,3 +17,6 @@ Stack: HTML/CSS/JS, GSAP 3.12.5 + ScrollTrigger, Lenis 1.1.13 (self-hosted in as
 Push this folder to GitHub, then in Netlify: Add new site > Import from GitHub. No build command; publish directory is the repo root (netlify.toml already sets this).
 
 Logo files for print/social are in /brand.
+
+## Brand
+Business renamed to Culture (Nov 2026). Logo: assets/logo.webp; masters in /brand (culture-logo-*.png). The old murdawon-logo-* files in /brand are retired.
